@@ -1,0 +1,75 @@
+* category theory for the sciences
+https://mitpress.mit.edu/books/category-theory-sciences
+
+** exercises
+
+*** 2.1.2.3
+a) PR → RG
+b) no , i think that in the brain one cell could connect to multiple cells in the codomain
+
+*** 2.1.2.4
+a) 2 ↦ 4
+b) 0 ↦ 0
+c) -2 ↦ 4
+d) 5 ↦ 25
+e)
+- → denotes an arrow that describes a *function* from the domain set to the codomain set,
+- ↦ denotes an mapping from one value directly to another
+
+*** 2.1.2.6
+im(f) = {y₁,y₂,y₄}
+
+*** 2.1.2.8
+what is the image set of f(A)?
+well A is given as A := {-1, 0, 1, 2, 3}
+which can be seen as fₐ := x ↦ x = id, so we can compose it in our comprehension
+got the answer wrong initially ,
+this states the set of things such that there is a function
+now as i ⊆ X can be seen as a function i → x
+we can treat the subset as a function and state
+
+i(a) composed with f that equals x, where x is from ℤ
+f(A) = { x ∈ ℤ | ∃a ∈ A such that f · i(a) = x}
+
+*** 2.1.2.10
+y : {:)} → Y
+
+*** 2.1.2.12
+a) 2⁵ = 32
+b) 5² = 25
+
+*** 2.1.2.13
+a) ∅
+b) {1}
+
+should be
+
+a) {x ∈ any Set}
+b) ∅
+
+to have homSet(X,A) == to 1 for all A then there only needs to be the function that maps everything to one value
+it must be a function that maps everthing to one member of a set, therefore A; the codomain must be aset of one element
+
+to have homSet(B,X) == 1 for all B , B must be the empty set since there can only be one value for the empty set
+
+*** 2.1.2.17
+a) n!
+b) yes
+
+*** 2.1.2.19
+
+a) no
+
+*** 2.1.2.20
+a) because the function id can be seen as x ⊆ X then , we can say the single element set , is the same as asserting membership of X
+, because is function in i → i points to one element, then it is an isomorphism
+
+*** 2.1.2.22
+a) c
+b) i:= {1,4,9,16,25,36,49}
+
+*** 2.1.2.24
+a) 3
+b) not a set
+c) infinite
+d) 6
